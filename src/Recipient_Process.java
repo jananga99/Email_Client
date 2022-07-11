@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+
+
 /*
  * Recipient_Process class processes records according to requirements.
  */

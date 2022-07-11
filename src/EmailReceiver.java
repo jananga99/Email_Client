@@ -1,3 +1,19 @@
+import java.util.ArrayList;
+import java.io.IOException;
+import java.util.Properties;
+import javax.mail.Flags;
+import javax.mail.Folder;
+import javax.mail.Message;
+import javax.mail.MessagingException;
+import javax.mail.NoSuchProviderException;
+import javax.mail.Session;
+import javax.mail.Store;
+import javax.mail.search.FlagTerm;
+import javax.mail.BodyPart;
+import javax.mail.internet.*;
+import javax.mail.internet.InternetAddress;
+
+
 /*
  * Email Receiving object.
  * Runs on a separate thread.

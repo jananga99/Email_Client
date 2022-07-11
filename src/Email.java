@@ -1,3 +1,6 @@
+
+import java.io.Serializable;
+
 /*
  * Constructor gets necessary details for email.
  */

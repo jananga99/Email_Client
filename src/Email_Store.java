@@ -1,3 +1,10 @@
+import java.util.ArrayList;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+
 /*
  * Email_Stroe class contains static methods for save and get back (deserialize) emails.
  * Emails are saved in "Email_Saved\\sent" or "Email_Saved\\received"

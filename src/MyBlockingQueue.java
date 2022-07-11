@@ -1,3 +1,6 @@
+import java.util.LinkedList;
+
+
 /*
  * Blocking Queue data structure to store data in Producer consumer process
  *   in a thread safely manner. Producer, EmailReceiver and Consumer, ReceiveEmailSaver

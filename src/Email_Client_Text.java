@@ -1,3 +1,9 @@
+import java.util.ArrayList;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.FileWriter;
+
+
 /*
  * Email_Client_Text class is for writing to and extracting data from input file.
  * Contains a recipientList containing all records as an array.
